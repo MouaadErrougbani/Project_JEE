@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+
+/* Conteneur principal du formulaire */
+form {
+    background-color: #ffffff; /* Arrière-plan blanc pour le formulaire */
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Largeur maximale du formulaire */
+    box-sizing: border-box;
+}
+
+/* Style des étiquettes */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Style des champs de saisie */
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d1d5db; /* Bordure légère */
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+/* Style du champ de saisie au focus */
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+    border-color: #6366f1; /* Couleur de focus */
+    outline: none;
+}
+
+/* Style pour la case à cocher */
+form input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Style du bouton de soumission */
+form input[type="submit"] {
+    background-color: #6366f1; /* Couleur principale */
+    color: #ffffff; /* Texte blanc */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+/* Changement de couleur au survol du bouton */
+form input[type="submit"]:hover {
+    background-color: #4f46e5; /* Couleur légèrement plus foncée */
+}
+
+/* Style pour le message */
+form .message {
+    color: #ef4444; /* Rouge pour les messages d'erreur */
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}

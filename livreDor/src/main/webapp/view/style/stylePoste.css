@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.post-container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.post-author {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.post-content {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #444;
+}
+
+.post-dates {
+    margin-top: 15px;
+    font-size: 0.8em;
+    color: #888;
+}
+
+
+.post-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Centrer les éléments horizontalement */
+    align-items: center;
+    gap: 15px;
+}
+
+.edit-link, .comments-link, .delete-link {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 8px 15px;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+.edit-link:hover, .comments-link:hover , .delete-link:hover {
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}
+
+.edit-link:active, .comments-link:active, .delete-link:active  {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+.comments-link {
+    border-color: #2196F3;
+    color: #2196F3;
+}
+
+.comments-link:hover {
+    background-color: #2196F3;
+}
+
+.comments-link:active {
+    background-color: #1e88e5;
+    border-color: #1e88e5;
+}
+
+.delete-link {
+    border-color: red;
+    color: red;
+}
+
+.delete-link:hover {
+    background-color: red;
+}
+
+.delete-link:active {
+    background-color: #1e88e5;
+    border-color: #1e88e5;
+}
+
+
+.add-post-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.add-post-button button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.add-post-button button a {
+    color: white;
+    text-decoration: none;
+}
+
+.add-post-button button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,41 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# build outputs
+build/
+target/
+*.war
+*.ear
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Java
+*.class
+
+# Tomcat
+tomcat-work/
+
+# Temporary files
+*.tmp
+
+# Environment / secrets
+.env
+*.keystore
+*.jks
+
+# Node / frontend if any
+node_modules/
+
+# Git LFS / large files placeholder (if needed)
+.gitattributes
