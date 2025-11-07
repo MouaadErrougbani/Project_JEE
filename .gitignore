@@ -1,41 +1,33 @@
-# Eclipse
-.classpath
-.project
-.settings/
-
-# build outputs
-build/
-target/
+# === Java ===
+*.class
 *.war
-*.ear
+*.jar
+*.log
+*.tmp
 
-# IntelliJ
+# === Build ===
+/build/
+/target/
+/bin/
+/out/
+
+# === Eclipse / IDE ===
+.project
+.classpath
+.settings/
+.factorypath
+.metadata/
+.vscode/
 .idea/
-*.iml
 
-# OS
+# === Tomcat & Web root ===
+/war_root/
+/WEB-INF/lib/
+/WEB-INF/classes/
+
+# === OS files ===
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-
-# Java
-*.class
-
-# Tomcat
-tomcat-work/
-
-# Temporary files
-*.tmp
-
-# Environment / secrets
-.env
-*.keystore
-*.jks
-
-# Node / frontend if any
-node_modules/
-
-# Git LFS / large files placeholder (if needed)
-.gitattributes
+# === Others ===
+/lib/
